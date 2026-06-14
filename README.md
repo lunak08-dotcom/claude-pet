@@ -3,6 +3,15 @@
 Claude Code가 작업하는 동안 화면 구석에서 상태에 따라 움직이는 데스크톱 캐릭터 펫입니다.
 Claude Code의 **훅(hooks)** 이 현재 상태를 파일에 기록하면, 펫이 그 파일을 읽어 모션을 바꿉니다.
 
+<p align="center">
+  <img src="docs/idle.png" alt="평소 모습" height="240" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="docs/working.gif" alt="작업 중 — 마법봉 흔들기" height="240" />
+</p>
+<p align="center">
+  <em>평소엔 가만히, 작업 중엔 마법봉을 천천히 흔듭니다 🪄</em>
+</p>
+
 ---
 
 ## 구조
@@ -115,3 +124,9 @@ npm start
 
 - 흰 배경 제거: `python tools/cutout_white.py <원본> <출력.png> [미리보기.png] [임계값]`
 - 마법봉 프레임 정렬: 두 이미지의 불투명 영역을 잘라낸 뒤, 바닥 8% 영역(발)의 가로 중심을 맞추고 동일 캔버스(바닥 정렬)로 합쳐 `assets/wand_up.png` / `assets/wand_down.png` 로 저장했습니다.
+
+---
+
+## 라이선스
+
+[MIT](LICENSE) © 2026 lunak
