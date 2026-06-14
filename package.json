@@ -1,0 +1,14 @@
+{
+  "name": "claude-pet",
+  "version": "1.0.0",
+  "description": "Claude Code 작업 상태에 반응하는 데스크톱 캐릭터 펫",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "lunak",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^32.0.0"
+  }
+}
